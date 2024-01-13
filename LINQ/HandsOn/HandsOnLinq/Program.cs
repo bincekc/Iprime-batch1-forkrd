@@ -13,11 +13,12 @@
             //fetch square of array no
             result = from k in n
                      select k * k;
-            
+
             //fetch square value >1000
             result = from k in n
                      where k * k > 1000
                      select k * k;
+                     
           
             ////use variable in lin q
             result = from k in n
